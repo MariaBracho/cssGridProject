@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-shadow: 0;
+    font-family:'Nunito', sans-serif;
 }
 
 html{
@@ -11,7 +12,6 @@ html{
 main {
     display: grid;
     width:100%;
-    font-family:'Nunito', sans-serif;
 }
 
 .hero{
@@ -129,12 +129,14 @@ main {
 }
 
 footer{
-    height:4rem;
-    margin-top:4rem;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height:5rem;
+    margin-top:4.8rem;
     background-color: #454851;
     color:white;
     font-size: 1.4rem;
-    padding:2rem;
 }
 
 @media only screen and (min-width: 600px) {
